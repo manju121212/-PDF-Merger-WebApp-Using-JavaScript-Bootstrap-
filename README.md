@@ -18,7 +18,7 @@ The node.js version has the following export functions:
 
 ### async node.js example
 const PDFMerger = require('pdf-merger-js');
-
+```
 var merger = new PDFMerger();
 
 (async () => {
@@ -35,7 +35,7 @@ var merger = new PDFMerger();
   // const mergedPdfBuffer = await merger.saveAsBuffer();
   // fs.writeSync('merged.pdf', mergedPdfBuffer);
 })();
-
+```
 ### FrontEnd :
   HTML,CSS,JAVASCRIPT,NODE JS
 
